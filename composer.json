@@ -10,9 +10,15 @@
             "email": "kubo@iteman.jp"
         }
     ],
+  "repositories": [
+    {
+        "url": "https://github.com/abdfork/workflower.git",
+        "type": "git"
+    }
+  ],
     "require": {
         "php": ">=5.3.9",
-        "phpmentors/workflower": "~1.2@dev",
+        "phpmentors/workflower": "dev-feature/userTask as ~1.2@dev",
         "symfony/config": "~2.7",
         "symfony/dependency-injection": "~2.7",
         "symfony/finder": "~2.7",
